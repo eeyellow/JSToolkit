@@ -1,0 +1,15 @@
+{
+  "name": "@linkchain/jstoolkit",
+  "version": "1.0.0",
+  "description": "Useful javascript toolkit",
+  "main": "src/index.js",
+  "scripts": {
+    
+  },
+  "keywords": [],
+  "author": {
+    "name" : "Ray Huang",
+    "email" : "rayhuang@linkchain.tw"
+  },
+  "license": "ISC"
+}
