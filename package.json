@@ -3,13 +3,23 @@
   "version": "1.0.0",
   "description": "Useful javascript toolkit",
   "main": "src/index.js",
-  "scripts": {
-    
-  },
+  "scripts": {},
   "keywords": [],
   "author": {
-    "name" : "Ray Huang",
-    "email" : "rayhuang@linkchain.tw"
+    "name": "Ray Huang",
+    "email": "rayhuang@linkchain.tw"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/eslint-parser": "^7.19.1",
+    "@babel/eslint-plugin": "^7.19.1",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-proposal-decorators": "^7.20.2",
+    "@babel/plugin-proposal-private-methods": "^7.18.6",
+    "@babel/preset-env": "^7.16.8",
+    "eslint": "^8.29.0",
+    "eslint-config-airbnb-base": "^15.0.0",    
+    "eslint-plugin-import": "^2.26.0"    
+  }
 }
