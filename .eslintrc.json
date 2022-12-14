@@ -48,6 +48,9 @@
       "error",
       "unix"
     ],
-    "import/extensions": "off"
+    "import/extensions": "off",
+    "eqeqeq": "warn",
+    "object-shorthand": "off",
+    "class-methods-use-this": "off"
   }
 }
