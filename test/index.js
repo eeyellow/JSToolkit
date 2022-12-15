@@ -1,21 +1,16 @@
-import JSToolkit from '../src/main.js'
+import ObservableStore from '../src/ObservableStore.js'
 
 const LC = {}
-LC.Toolkit = JSToolkit
 LC.Store = LC.Store || {
-    Username: '賣靠北',
+    Username: '你的名字',
     Password: '1234',
     Info: {
         Tel: 3345678,
-        Email: 'rayhuang@test.cc',
+        Email: 'test@linkchain.tw',
         City: 'Kaohsiung',
-        Address: 'aaaa'
+        Address: '10樓'
     },
 }
 window.LC = window.LC || LC;
-
-document.ready().then(async () => {
-    LC.ObservableStore = new LC.Toolkit.ObservableStore(LC.Store)
-    LC.ObservableStore.Binding()
-    LC.ObservableStore.NotifyObserve()
-})
+LC.ObservableStore = new ObservableStore(LC.Store)
+LC.ObservableStore.Binding()

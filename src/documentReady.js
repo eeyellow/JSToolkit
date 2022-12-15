@@ -1,6 +1,15 @@
 /**
  * ES6 Document ready with Promise
- * @returns Promise
+ * @module DocumentReady
+ * @returns {Promise}
+ * @example
+ * import documentReady from '../src/DocumentReady.js'
+ *
+ * Document.prototype.ready = documentReady
+ *
+ * document.ready().then(() => {
+ *     // 主程式進入點
+ * })
  */
 export default function documentReady () {
     return new Promise((resolve, reject) => {

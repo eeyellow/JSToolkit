@@ -1,0 +1,68 @@
+{
+    "tags": {
+        "allowUnknownTags": true
+    },
+    "source": {
+        "include": [
+            "./src"
+        ],
+        "includePattern": ".+\\.js(doc)?$",
+        "excludePattern": "(^|\\/|\\\\)_"
+    },
+    "opts": {
+        "template": "node_modules/docdash",
+        "encoding": "utf8",
+        "destination": "./doc/",
+        "recurse": true
+    },
+    "plugins": [
+        "plugins/markdown"
+    ],
+    "templates": {
+        "cleverLinks": true,
+        "monospaceLinks": true,
+        "applicationName": "JSToolkit",
+        "openGraph": {},
+        "meta": {},
+        "systemName": "JSToolkit",
+        "footer": "",
+        "copyright": "© Copyright Ling Cheng Technology Corporation Ltd., All Right Reserved",
+        "includeDate": false,
+        "navType": "vertical",
+        "linenums": true,
+        "collapseSymbols": true,
+        "inverseNav": true,
+        "outputSourceFiles": false,
+        "outputSourcePath": false,
+        "dateFormat": "YYYY-MM-DD",
+        "syntaxTheme": "default",
+        "sort": true,
+        "search": false
+    },
+    "docdash": {
+        "sectionOrder": [
+            "Namespaces",
+            "Classes",
+            "Modules",
+            "Externals",
+            "Events",
+            "Mixins",
+            "Tutorials",
+            "Interfaces"
+        ],
+        "static": true,
+        "sort": true,
+        "search": true,
+        "collapse": true,
+        "typedefs": true,
+        "removeQuotes": "none",
+        "scripts": [],
+        "menu": {
+            "TFS repo": {
+                "href": "https://tfs.lingcheng.tw/tfs/DefaultCollection",
+                "target": "_blank",
+                "class": "menu-item"
+            }
+        }
+    }
+}

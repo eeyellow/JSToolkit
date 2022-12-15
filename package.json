@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Useful javascript toolkit",
   "main": "src/index.js",
-  "scripts": {},
+  "scripts": {
+    "doc": "jsdoc -c jsdoc.conf.json -R README.md"
+  },
   "keywords": [],
   "author": {
     "name": "Ray Huang",
@@ -19,7 +21,9 @@
     "@babel/plugin-proposal-private-methods": "^7.18.6",
     "@babel/preset-env": "^7.16.8",
     "eslint": "^8.29.0",
-    "eslint-config-airbnb-base": "^15.0.0",    
-    "eslint-plugin-import": "^2.26.0"    
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "docdash": "^1.2.0",
+    "jsdoc": "^3.4.3"
   }
 }
